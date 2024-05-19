@@ -21,3 +21,8 @@ The command will write to a file named `Output.txt`
 It will return an error message if there is no provided shift parameter
 
 I choose to only convert ASCII-characters, so if there is some funy stuff like emojis or the irritating accent symbol from the second text, it will behave differently
+
+## Output
+The output is the same text but encrypted. The task says to return an array in a file, but a text with spaces in between is implicitly an array mapping indices to words.
+
+The text itself ignores original newlines and funky non-ASCII-characters, which is a shame but would need more attention in a real programme
